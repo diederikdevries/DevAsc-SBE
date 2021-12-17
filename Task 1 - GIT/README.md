@@ -3,11 +3,13 @@
 * Task implementation
 
   I did create a GIT repository on GitHub, and added a README.md file. Then, I did pull this repo to my local computer.
-  To troubleshoot authentication-issues, I changed the README.md, and was a tad surprised that I didn't have to enter credentials. 
+  To troubleshoot authentication-issues, I changed the README.md, and was a tad surprised that I didn't have to enter credentials. (Commit 00fe841df945140ab0ced0002abbed45c4c64ebc)
 * Task troubleshooting => what were the problems encountered?
   No credentials needed?
 * Task verification => proof of the quality of the result
   I'll write this file. Push it, make a screenshot of GitHub, and reedit this file. #profit :)
+
+  ![Schermafbeelding 2021-12-17 om 11.27.58 (2)](/Users/diederik/Documents/DevNet/Exam/Task 1 - GIT/Schermafbeelding 2021-12-17 om 11.27.58 (2).png)
 
 
 

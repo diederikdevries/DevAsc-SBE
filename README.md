@@ -11,18 +11,18 @@ I added 10 directories, for every task 1. At all the directories, I'll add a REA
 
 
 
-| #    | Taskname                         | Status |
-| ---- | -------------------------------- | ------ |
-| 1    | Github **                        |        |
-| 2    | Ansible **                       |        |
-| 3    | Docker ***                       |        |
-| 4    | Jenkins **                       |        |
-| 5    | Rest API & RESTCONF ***          |        |
-| 6    | Webex Teams API ***              |        |
-| 7    | Bash **                          |        |
-| 8    | Unit testing -                   |        |
-| 9    | pyATS -                          |        |
-| 10   | Filtering DNAC Response Data *** |        |
+| #    | Taskname                         | Status        |
+| ---- | -------------------------------- | ------------- |
+| 1    | Github **                        | Done @ 17 dec |
+| 2    | Ansible **                       | WIP           |
+| 3    | Docker ***                       | WIP           |
+| 4    | Jenkins **                       | WIP           |
+| 5    | Rest API & RESTCONF ***          | WIP           |
+| 6    | Webex Teams API ***              | WIP           |
+| 7    | Bash **                          | WIP           |
+| 8    | Unit testing -                   | WIP           |
+| 9    | pyATS -                          | WIP           |
+| 10   | Filtering DNAC Response Data *** | WIP           |
 
 
 
