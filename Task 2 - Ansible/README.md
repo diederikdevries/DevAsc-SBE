@@ -1,7 +1,9 @@
-* Task name => name of the task
+* Task name => Ansible
 * Task preparation => what preparation is necessary to perform the task? (short)
+  I needed to start my Windows PC, connect via Remote Desktop, and start the VM's
 * Task implementation => what is the way you have implemented the task?
 * Task troubleshooting => what were the problems encountered?
+  Probably due to an update to Windows 11, I fail to start the VM's. Argh! Upgrade to 6.1.30 might help?
 * Task verification => proof of the quality of the result
 
 
