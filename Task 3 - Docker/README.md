@@ -73,6 +73,13 @@ Nope. Path seems to be incorrect! Adjusted and working:
 /usr/local/apache2/conf # grep rewrite httpd.conf
 LoadModule rewrite_module modules/mod_rewrite.so
 
+Lets change the listening port (and add a exposed port en passant....)
+
+Done. But how can I nudge this in the image? Image still works, but now on 8081...
+
+Let's do the last bit of gory RegExping on the VHOSTS. I guess that the default host was already having the index.html, since the 8081-port already gave "Wie dit leest is gek".
+
+It's a wrap. Bewijsmateraal: ![Final Docker](/Users/diederik/Documents/DevNet/Exam/Task 3 - Docker/Final Docker.png)
 
 * Task troubleshooting => what were the problems encountered?
 * Task verification => proof of the quality of the result
