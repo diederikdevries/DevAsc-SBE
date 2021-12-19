@@ -1,0 +1,25 @@
+---
+
+- name: Cisco show version example
+  hosts: ios
+  gather_facts: false
+  connection: network_cli
+
+  tasks:
+    - name: run show version on the routers
+      ios_command:
+        commands: 
+          - show version | incl Version
+          - show interfaces
+      register: output
+
+    - name: print output
+      debug:
+        var: output.stdout_lines
+
+    - name: Reset the counters (obligatory catch because of the Y needed)
+      cisco.ios.ios_command:
+        commands:
+        - command: 'clear counters'
+          prompt: 'Clear "show interface" counters on all interfaces \[confirm\]'
+          answer: 'y'
