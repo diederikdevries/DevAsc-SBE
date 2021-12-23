@@ -15,7 +15,9 @@ echo "RUN sed -i 's/^<VirtualHost *:80>/<VirtualHost *:8081>/g' /usr/local/apach
 echo "EXPOSE 8081/tcp" >> tempdir/Dockerfile
 echo "Inhoud van Dockerfile"
 cat tempdir/Dockerfile
+
 cd tempdir
+cp ../index.html .
 docker build -t examapp .
 docker run -t -d -p 8081:8081 --name examrunning examapp
 docker ps -a
