@@ -1,5 +1,5 @@
 #!/bin/bash
-echo "Dit werkt"
+echo "Aanmaken tempdir..."
 mkdir tempdir
 # mkdir tempdir/templates
 # mkdir tempdir/static
@@ -13,6 +13,8 @@ echo "RUN sed -i 's@^#LoadModule rewrite_module modules/mod_rewrite\.so@LoadModu
 echo "RUN sed -i 's/^Listen 80/Listen 8081/g' /usr/local/apache2/conf/httpd.conf" >> tempdir/Dockerfile
 echo "RUN sed -i 's/^<VirtualHost *:80>/<VirtualHost *:8081>/g' /usr/local/apache2/conf/extra/httpd-vhosts.conf" >> tempdir/Dockerfile
 echo "EXPOSE 8081/tcp" >> tempdir/Dockerfile
+echo "Inhoud van Dockerfile"
+cat tempdir/Dockerfile
 # cd tempdir
 # docker build -t sampleapp .
 # docker run -t -d -p 5050:5050 --name samplerunning sampleapp
