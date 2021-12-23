@@ -125,7 +125,11 @@ I create a folder in Jenkins, and add a 'regular' project. This feels gory, but 
 
 
 
-Let's try to build a image with the original!
+3 days later I decided to look at the practices we had in the lessons. Am I able to repeat those? One hour later I had a working Jenkins pipeline, which triggers a Jenkins project. It even does work ;)
+
+
+
+
 
 
 

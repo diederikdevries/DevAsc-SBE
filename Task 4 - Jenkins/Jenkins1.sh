@@ -1,11 +1,7 @@
 #!/bin/bash
 echo "Aanmaken tempdir..."
 mkdir tempdir
-# mkdir tempdir/templates
-# mkdir tempdir/static
-# cp sample_app.py tempdir/.
-# cp -r templates/* tempdir/templates/.
-# cp -r static/* tempdir/static/.
+
 echo "FROM httpd:2-alpine" >> tempdir/Dockerfile
 echo "COPY ./index.html /usr/local/apache2/htdocs" >> tempdir/Dockerfile
 echo "RUN apk update" >> tempdir/Dockerfile

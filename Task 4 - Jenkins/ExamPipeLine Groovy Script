@@ -1,0 +1,14 @@
+node {
+ stage('Preparation') {
+ catchError(buildResult: 'SUCCESS') {
+ sh 'docker stop examrunning'
+ sh 'docker rm examrunning'
+ }
+ }
+ stage('Build') {
+ build 'ExamProject'
+ }
+ stage('Results') {
+ build 'ExamProject'
+ }
+}

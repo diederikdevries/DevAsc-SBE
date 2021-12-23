@@ -1,0 +1,2 @@
+cd "Task 4 - Jenkins"
+bash "./Jenkins1.sh"
