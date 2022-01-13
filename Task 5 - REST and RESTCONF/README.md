@@ -35,3 +35,14 @@ URL: RESTCONF Programmable Interface
 More examples of curl and python scripting RESTCONF Tutorial - Everything you need to know about RESTCONF
 
 URL: Everything you need to know about RESTCONF
+
+
+
+
+
+# Options
+
+
+
+Well, that wasn't difficult. Some reading on https://docs.python-requests.org/en/latest/user/quickstart/#make-a-request
+
