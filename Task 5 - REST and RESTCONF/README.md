@@ -46,3 +46,16 @@ URL: Everything you need to know about RESTCONF
 
 Well, that wasn't difficult. Some reading on https://docs.python-requests.org/en/latest/user/quickstart/#make-a-request
 
+# Post
+
+Ok, after enabling the logging monitor, the POST.py script works :)
+
+devasc@labvm:~/cURL$ python3 /home/devasc/cURL/post.py
+/usr/lib/python3/dist-packages/urllib3/connectionpool.py:999: InsecureRequestWarning: Unverified HTTPS request is being made to host '192.168.56.101'. Adding certificate verification is strongly advised. See: https://urllib3.readthedocs.io/en/latest/advanced-usage.html#ssl-warnings
+  warnings.warn(
+<Response [201]>
+{'Server': 'nginx', 'Date': 'Mon, 20 Dec 2021 11:58:00 GMT', 'Content-Type': 'text/html', 'Content-Length': '0', 'Location': 'https://192.168.56.101/restconf/data/Cisco-IOS-XE-native:native/logging/monitor/severity', 'Connection': 'keep-alive', 'Last-Modified': 'Mon, 20 Dec 2021 11:58:00 GMT', 'Cache-Control': 'private, no-cache, must-revalidate, proxy-revalidate', 'Etag': '1640-1480-724819', 'Pragma': 'no-cache'}
+devasc@labvm:~/cURL$ 
+
+
+
