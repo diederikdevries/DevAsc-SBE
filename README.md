@@ -18,12 +18,12 @@ I added 10 directories, for every task 1. At all the directories, I'll add a REA
 | 3    | Docker ***                       | Done @ 19 dec | 30        |
 | 4    | Jenkins **                       | Done @ 23 dec | 20        |
 | 5    | Rest API & RESTCONF ***          | WIP           |           |
-| 6    | Webex Teams API ***              | WIP           |           |
+| 6    | Webex Teams API *** (gory)       | Done @ 13 jan | 30        |
 | 7    | Bash **                          | WIP           |           |
 | 8    | Unit testing -                   | WIP           |           |
 | 9    | pyATS -                          | WIP           |           |
 | 10   | Filtering DNAC Response Data *** | WIP           |           |
-| --   | --                               | --            | 90        |
+| --   | --                               | --            | 120       |
 
 
 

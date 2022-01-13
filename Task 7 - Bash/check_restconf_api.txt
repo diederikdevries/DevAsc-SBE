@@ -1,0 +1,17 @@
+#!/bin/bash
+date "+%Y-%m-%d"
+echo "FIRST API CALL"
+echo "============"
+
+echo "SECOND API CALL"
+echo "============"
+
+
+of. Status Code: (realtime output)
+
+
+i. ============
+
+j. Status Code: (realtime output)
+
+k. Interfaces: (realtime output)
